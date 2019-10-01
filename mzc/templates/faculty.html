@@ -1,7 +1,9 @@
-{% extends 'base.html'%}
+{% extends 'base.html' %}
 
-{%block myContent%}
-{%load crispy_forms_tag%}
+{% block myContent %}
+
+{% load crispy_forms_tag %}
+
 {{ forms|crispy }}
 
 {%endblock%}

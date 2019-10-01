@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-from.forms Facultyform
+from .forms import Facultyform
 
 
 # Create your views here.
